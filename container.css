@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.text {
+  color: #fff;
+  width: 40%;
+
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0 0 7px #000;
+  letter-spacing: 2px;
+
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin: 10px;
+
+}
+
+.image {
+  width: 40%;
+}
+
+img {
+  width: 400px;
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: rotate3d(0, 1, 0, 180deg);
+}
+
+@media (min-width:950px) and (max-width:1150px) {
+  body {
+    background-color: red;
+  }
+}
